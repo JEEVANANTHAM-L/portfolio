@@ -1,0 +1,42 @@
+body{
+    background-image: url(photo.jpg);
+    background-size: cover;
+}
+.home{
+    font-size:xx-large;
+    color: antiquewhite;
+    padding-left: 100px;
+    padding-top: 40px;
+
+}
+.page{
+    font-size: 300%;
+    color: sandybrown;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+page:hover{
+    font-size: 400%;
+}
+.start{
+    border: 2px;
+    border-style: solid;
+    width:fit-content;
+    border-color: sandybrown;
+    margin-left: 100px;
+    margin-top: 50px;
+    padding:10px;
+    
+    
+}
+.start a{
+    color:antiquewhite ;
+    text-decoration: none;
+    font-size:200%;
+   
+
+}
+.start a:hover{
+    color:sandybrown;
+    font-size: xx-large;
+}

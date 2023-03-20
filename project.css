@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    margin: 0px;
+    font-family: Roboto;
+    background-image: url(photo.jpg);
+    background-size:cover;
+}
+.task{
+    color:antiquewhite;
+    padding-left: 10%;
+    padding-top:7%;
+}
+h2{
+    color:sandybrown;
+    font-size: 200%;  
+}
+.project {
+    color:aqua;
+    font-size: 300%;
+}
+li{
+    font-size: 150%;
+}
+.github{
+    border: 2px;
+    border-style: solid;
+    width:fit-content;
+    border-color: aqua;
+    color: sandybrown;
+    margin-left: 10px;
+    margin-top: 20px;
+    padding:10px;
+    
+    
+}
+.github a{
+    color:antiquewhite ;
+    text-decoration: none;
+    font-size:150%;
+   
+
+}
+.github a:hover{
+    color:aqua;
+    font-size: xx-large;
+}
+.content {
+    border: 2px;
+    display: flex;
+    justify-content: space-between;
+    gap:20%;
+    color:antiquewhite;
+    padding-left: 700px;
+    padding-top: 20px;
+    padding-right: 50px;
+    text-decoration: none;
+}
+.position{
+    position: fixed;
+}
+.content a{
+    color:rgb(246, 200, 141);
+    padding-top:20px;
+    font-size: 150%;
+    text-decoration: none;
+}
+
+a:hover{
+    font-size:175%;
+    color:rgb(240, 119, 12);
+}
