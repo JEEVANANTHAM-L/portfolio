@@ -26,11 +26,10 @@ h2{
 .profile{
     border: 2px;
     border-style: solid;
-    width:140px;
+    width:200px;
     border-color: aqua;
-    color: sandybrown;
     margin-left: 70px;
-    margin-top: 20px;
+    margin-top: 10px;
     padding:10px;
     text-align: center;
     
@@ -40,20 +39,20 @@ h2{
     color:antiquewhite ;
     text-decoration: none;
     font-size:150%;
-   
 
 }
 .profile a:hover{
     color:aqua;
-    font-size: xx-large;
 }
+
+
 .content {
     border: 2px;
     display: flex;
     justify-content: space-between;
     gap:20%;
     color:antiquewhite;
-    padding-left: 700px;
+    padding-left: 600px;
     padding-top: 20px;
     padding-right: 50px;
     text-decoration: none;
@@ -68,7 +67,38 @@ h2{
     text-decoration: none;
 }
 
-a:hover{
+.content a:hover{
     font-size:175%;
     color:rgb(240, 119, 12);
+}
+.profile_1{
+    border: 2px;
+    border-style: solid;
+    width:200px;
+    border-color: aqua;
+
+    margin-left: 70px;
+    margin-top: 50px;
+    padding:10px;
+    text-align: center;
+    
+    
+}
+.profile_1 a{
+    color:antiquewhite ;
+    text-decoration: none;
+    font-size:150%;
+   
+
+}
+.profile_1 a:hover{
+    color:aqua;
+}
+.flex{
+    display: flex;
+    justify-content: flex-start;
+}
+.flex_1{
+    display: flex;
+    justify-content: flex-start;
 }
